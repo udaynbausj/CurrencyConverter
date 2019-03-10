@@ -8,7 +8,7 @@ const getLiveUSDtoOther = async () => {
     const options = {
         url : `${baseCurrencyApiUrl}/live`,
         qs : {
-            'access_key' : '26546242bcedf4286b74ddb432dcb490'
+            'access_key' : '****'
         },
         method : 'GET'
     };
@@ -90,7 +90,7 @@ const convertFromUSDtoOtherCurrency = async (toCountry,amountToConvert) => {
         url : `${baseCurrencyApiUrl}convert`,
         method : 'GET',
         qs : {
-            access_key: '26546242bcedf4286b74ddb432dcb490',
+            access_key: '*****',
             from : 'USD',
             to : `${toCountry}`,
             amount : `${amountToConvert}`,
